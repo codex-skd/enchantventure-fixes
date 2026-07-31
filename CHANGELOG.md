@@ -5,6 +5,13 @@ Todos los cambios notables de EnchantVenture Fixes se documentan en este archivo
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.0.0-beta.2] - 2026-07-31
+
+### Añadido
+
+- Icono del proyecto (`pack.png`) incluido en el zip del datapack (visible en la lista de datapacks in-game).
+- `build_fix_pack.py` copia `pack.png` a `datapack/` y al zip.
+
 ## [0.0.0-beta.1] - 2026-07-31
 
 ### Añadido

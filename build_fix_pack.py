@@ -110,6 +110,8 @@ def main():
         "result": {"id": "nerologistics:configurator"},
     })
 
+    shutil.copy(os.path.join(ROOT, "pack.png"), os.path.join(SRC, "pack.png"))
+
     clean(BUILD)
     with zipfile.ZipFile(ZIP, "w", zipfile.ZIP_DEFLATED) as z:
         for dirpath, _, files in os.walk(SRC):
