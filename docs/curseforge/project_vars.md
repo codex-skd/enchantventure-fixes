@@ -4,7 +4,7 @@
 
 | Variable | Valor |
 |----------|-------|
-| `curseforge_project_id` | `PENDIENTE` (crear proyecto en CurseForge antes del primer upload) |
+| `curseforge_project_id` | `1633366` (en espera de validación) |
 | `mod_id` | `enchantventure_fixes` |
 | `display_name` | `EnchantVenture Fixes` |
 
@@ -70,8 +70,8 @@ Ejemplo: `26.2-0.0.0-beta.1`
 import json, uuid, urllib.request
 
 boundary = uuid.uuid4().hex
-version = "0.0.0-beta.1"
-project_id = "<PROJECT_ID>"
+version = "0.0.0-beta.2"
+project_id = 1633366
 api_token = "<API_TOKEN>"
 
 metadata = {
@@ -117,7 +117,7 @@ print(resp.read().decode())
 ## Verificar con GET
 
 ```bash
-curl -s "https://api.curseforge.com/v1/mods/<PROJECT_ID>/files/<FILE_ID>" \
+curl -s "https://api.curseforge.com/v1/mods/1633366/files/<FILE_ID>" \
   -H "x-api-key: <API_TOKEN>"
 ```
 
@@ -130,7 +130,7 @@ No hay endpoint API para actualizar la descripcion. Se edita manualmente desde l
 El script `scripts/curseforge-upload.ps1` lee estas líneas (`key = value`):
 
 ```
-project_id = PENDIENTE
+project_id = 1633366
 api_token = PENDIENTE
 game_versions = 107,26.2
 release_type = beta
