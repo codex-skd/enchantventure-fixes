@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "EnchantVenture data fixes: tntfoundry, formationsoverworld, fokus, nerospace, nerologistics",
+    "min_format": [
+      107,
+      1
+    ],
+    "max_format": 107
+  }
+}

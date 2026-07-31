@@ -1,0 +1,9 @@
+build/
+temp/
+lib_ext/
+*.zip
+*.pyc
+__pycache__/
+nul
+error.log
+.DS_Store

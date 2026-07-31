@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tntfoundry:detonator"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "tntfoundry:detonator"
+    },
+    "title": {
+      "translate": "advancements.tntfoundry.remote_work.title"
+    },
+    "description": {
+      "translate": "advancements.tntfoundry.remote_work.description"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ],
+  "sends_telemetry_event": false,
+  "parent": "tntfoundry:root"
+}

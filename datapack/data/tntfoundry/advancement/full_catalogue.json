@@ -1,0 +1,411 @@
+{
+  "criteria": {
+    "has_demolition": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tntfoundry:demolition_tnt"
+            ]
+          }
+        ]
+      }
+    },
+    "has_shaft": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tntfoundry:shaft_tnt"
+            ]
+          }
+        ]
+      }
+    },
+    "has_cavity": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tntfoundry:cavity_tnt"
+            ]
+          }
+        ]
+      }
+    },
+    "has_quarry": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tntfoundry:quarry_tnt"
+            ]
+          }
+        ]
+      }
+    },
+    "has_terrace": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tntfoundry:terrace_tnt"
+            ]
+          }
+        ]
+      }
+    },
+    "has_corer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tntfoundry:corer_tnt"
+            ]
+          }
+        ]
+      }
+    },
+    "has_sculptor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tntfoundry:sculptor_tnt"
+            ]
+          }
+        ]
+      }
+    },
+    "has_moat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tntfoundry:moat_tnt"
+            ]
+          }
+        ]
+      }
+    },
+    "has_singularity": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tntfoundry:singularity_tnt"
+            ]
+          }
+        ]
+      }
+    },
+    "has_repulsor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tntfoundry:repulsor_tnt"
+            ]
+          }
+        ]
+      }
+    },
+    "has_updraft": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tntfoundry:updraft_tnt"
+            ]
+          }
+        ]
+      }
+    },
+    "has_implosion": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tntfoundry:implosion_tnt"
+            ]
+          }
+        ]
+      }
+    },
+    "has_hydro": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tntfoundry:hydro_tnt"
+            ]
+          }
+        ]
+      }
+    },
+    "has_cryo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tntfoundry:cryo_tnt"
+            ]
+          }
+        ]
+      }
+    },
+    "has_incendiary": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tntfoundry:incendiary_tnt"
+            ]
+          }
+        ]
+      }
+    },
+    "has_storm": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tntfoundry:storm_tnt"
+            ]
+          }
+        ]
+      }
+    },
+    "has_fission": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tntfoundry:fission_tnt"
+            ]
+          }
+        ]
+      }
+    },
+    "has_relay": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tntfoundry:relay_tnt"
+            ]
+          }
+        ]
+      }
+    },
+    "has_timer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tntfoundry:timer_tnt"
+            ]
+          }
+        ]
+      }
+    },
+    "has_remote": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tntfoundry:remote_tnt"
+            ]
+          }
+        ]
+      }
+    },
+    "has_proximity": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tntfoundry:proximity_tnt"
+            ]
+          }
+        ]
+      }
+    },
+    "has_adhesive": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tntfoundry:adhesive_tnt"
+            ]
+          }
+        ]
+      }
+    },
+    "has_ender": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tntfoundry:ender_tnt"
+            ]
+          }
+        ]
+      }
+    },
+    "has_meteor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tntfoundry:meteor_tnt"
+            ]
+          }
+        ]
+      }
+    },
+    "has_rocket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tntfoundry:rocket_tnt"
+            ]
+          }
+        ]
+      }
+    },
+    "has_harvest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tntfoundry:harvest_tnt"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "tntfoundry:foundry_manifest"
+    },
+    "title": {
+      "translate": "advancements.tntfoundry.full_catalogue.title"
+    },
+    "description": {
+      "translate": "advancements.tntfoundry.full_catalogue.description"
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "has_demolition"
+    ],
+    [
+      "has_shaft"
+    ],
+    [
+      "has_cavity"
+    ],
+    [
+      "has_quarry"
+    ],
+    [
+      "has_terrace"
+    ],
+    [
+      "has_corer"
+    ],
+    [
+      "has_sculptor"
+    ],
+    [
+      "has_moat"
+    ],
+    [
+      "has_singularity"
+    ],
+    [
+      "has_repulsor"
+    ],
+    [
+      "has_updraft"
+    ],
+    [
+      "has_implosion"
+    ],
+    [
+      "has_hydro"
+    ],
+    [
+      "has_cryo"
+    ],
+    [
+      "has_incendiary"
+    ],
+    [
+      "has_storm"
+    ],
+    [
+      "has_fission"
+    ],
+    [
+      "has_relay"
+    ],
+    [
+      "has_timer"
+    ],
+    [
+      "has_remote"
+    ],
+    [
+      "has_proximity"
+    ],
+    [
+      "has_adhesive"
+    ],
+    [
+      "has_ender"
+    ],
+    [
+      "has_meteor"
+    ],
+    [
+      "has_rocket"
+    ],
+    [
+      "has_harvest"
+    ]
+  ],
+  "sends_telemetry_event": false,
+  "parent": "tntfoundry:paperwork"
+}
