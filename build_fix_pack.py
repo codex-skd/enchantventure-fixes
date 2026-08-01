@@ -51,7 +51,7 @@ def main():
 
     write("pack.mcmeta", {
         "pack": {
-            "description": "EnchantVenture data fixes: tntfoundry, formationsoverworld, fokus, nerospace, nerologistics",
+            "description": "EnchantVenture data fixes: tntfoundry, formationsoverworld, fokus, nerospace",
             "min_format": [107, 1],
             "max_format": 107,
         }
@@ -86,6 +86,26 @@ def main():
         "value": {"min": 12000, "max": 22500},
     })
 
+    fokus_functions = {
+        "kp4o6wh": [
+            "schedule function fokus:nxf/kp4o6wh 1s",
+            "scoreboard players add $fk.ttm fk.ttm 1",
+        ],
+        "11z33h0q4": [
+            "scoreboard objectives add fk.ptm minecraft.custom:minecraft.play_time",
+            "scoreboard players set $1Sux rl.basic 1",
+        ],
+        "_ignored_bffhan5h": [
+            "item replace entity @s weapon.mainhand with air",
+            "scoreboard players set $1xOQSeC7Zy 70w7 1",
+        ],
+    }
+    for name, lines in fokus_functions.items():
+        full = os.path.join(SRC, f"data/fokus/function/nxf/{name}.mcfunction")
+        os.makedirs(os.path.dirname(full), exist_ok=True)
+        with open(full, "w", encoding="utf-8", newline="\n") as f:
+            f.write("\n".join(lines) + "\n")
+
     write("data/nerospace/advancement/guide/new_life.json", {
         "parent": "nerospace:guide/living_world",
         "criteria": {
@@ -101,13 +121,6 @@ def main():
         },
         "requirements": [["bred_meadow_loper", "bred_ember_strutter", "bred_woolly_drift"]],
         "sends_telemetry_event": True,
-    })
-
-    write("data/nerologistics/recipe/configurator.json", {
-        "type": "minecraft:crafting_shaped",
-        "key": {"I": {"item": "minecraft:iron_ingot"}},
-        "pattern": ["I I", " I ", " I "],
-        "result": {"id": "nerologistics:configurator"},
     })
 
     shutil.copy(os.path.join(ROOT, "pack.png"), os.path.join(SRC, "pack.png"))
