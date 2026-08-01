@@ -112,7 +112,7 @@ resp = urllib.request.urlopen(req)
 print(resp.read().decode())
 ```
 
-> Nota: el gameVersion para datapacks usa el **pack format** como versión numérica. Si CurseForge rechaza el array, probar con `[26.2]` o el id de la versión "Datapack" correspondiente.
+> Nota: `gameVersions` usa el `gameVersionId` de Minecraft (de `GET /v1/minecraft/version`), no el pack format. Para `26.2` el id válido es `16498`.
 
 ## Verificar con GET
 
@@ -132,7 +132,7 @@ El script `scripts/curseforge-upload.ps1` lee estas líneas (`key = value`):
 ```
 project_id = 1633366
 api_token = PENDIENTE
-game_versions = 107,26.2
+game_versions = 16498
 release_type = beta
 ```
 
