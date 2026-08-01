@@ -5,7 +5,7 @@ Todos los cambios notables de EnchantVenture Fixes se documentan en este archivo
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [0.0.0-beta.3] - 2026-08-01
 
 ### Añadido
 
