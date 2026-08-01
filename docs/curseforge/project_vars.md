@@ -12,8 +12,8 @@
 
 | API | Token | Uso |
 |-----|-------|-----|
-| Upload | `PENDIENTE` (token de cuenta, mismo que los mods) | Subir archivos ZIP |
-| Core (GET) | `PENDIENTE` | Consultar datos del proyecto |
+| Upload | `ee776b0a-ee95-4850-b554-06be02a8657f` (token de cuenta, mismo que los mods) | Subir archivos ZIP |
+| Core (GET) | `$2a$10$yGwryAfmRkS9ZJsJUDf5YOKZpOIsmHB8Fji2D8JVCKBSZEKYlwmaO` | Consultar datos del proyecto |
 
 Autenticación Upload: cabecera `X-Api-Token`
 Autenticación Core: cabecera `x-api-key`
@@ -131,7 +131,7 @@ El script `scripts/curseforge-upload.ps1` lee estas líneas (`key = value`):
 
 ```
 project_id = 1633366
-api_token = PENDIENTE
+api_token = ee776b0a-ee95-4850-b554-06be02a8657f
 game_versions = 16498
 release_type = beta
 ```
