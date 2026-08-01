@@ -5,6 +5,16 @@ Todos los cambios notables de EnchantVenture Fixes se documentan en este archivo
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.0.0-beta.4] - 2026-08-01
+
+### Añadido
+
+- Tokens de API de CurseForge (Upload y Core) configurados en `docs/curseforge/project_vars.md`.
+
+### Cambiado
+
+- Publicación en CurseForge operativa: `gameVersions` usa el `gameVersionId` de Minecraft (`26.2` → `16498`) en lugar del pack format, y `scripts/curseforge-upload.ps1` solo lee la sección "Variables parseables" de `project_vars.md`.
+
 ## [0.0.0-beta.3] - 2026-08-01
 
 ### Añadido
