@@ -15,8 +15,14 @@ $scriptPath = Split-Path -Parent $MyInvocation.MyCommand.Path
 $repoPath = Resolve-Path "$scriptPath/.."
 
 function Get-VarFromMd($file, $key) {
-    $line = Select-String -Path $file -Pattern "^\s*$key\s*=\s*(.+)" | Select-Object -First 1
-    if ($line) { return $line.Matches.Groups[1].Value.Trim() }
+    $lines = Get-Content $file
+    $section = $lines | Select-String -Pattern "^## Variables parseables" | Select-Object -First 1
+    $start = if ($section) { $section.LineNumber } else { 1 }
+    for ($i = $start; $i -le $lines.Count; $i++) {
+        if ($lines[$i - 1] -match "^\s*$key\s*=\s*(.+)$") {
+            return $matches[1].Trim()
+        }
+    }
     return $null
 }
 
