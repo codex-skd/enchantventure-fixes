@@ -5,6 +5,12 @@ Todos los cambios notables de EnchantVenture Fixes se documentan en este archivo
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.0.0-beta.5] - 2026-08-01
+
+### Añadido
+
+- the_lost_city: añadidos los 5 template pools de spawners que faltaban (`spawners_husk`, `spawners_pillager`, `spawners_vindicator`, `spawners_zombie`, `spawners_zombie_moss`). Los jigsaw blocks de las estructuras los referenciaban pero el mod no los definía, lo que generaba avisos de `lithostitched` y spawners sin colocar; cada pool apunta a su estructura `spawner_<tipo>.nbt`.
+
 ## [0.0.0-beta.4] - 2026-08-01
 
 ### Añadido

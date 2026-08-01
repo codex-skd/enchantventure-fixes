@@ -51,7 +51,7 @@ def main():
 
     write("pack.mcmeta", {
         "pack": {
-            "description": "EnchantVenture data fixes: tntfoundry, formationsoverworld, fokus, nerospace",
+            "description": "EnchantVenture data fixes: tntfoundry, formationsoverworld, fokus, nerospace, the_lost_city",
             "min_format": [107, 1],
             "max_format": 107,
         }
@@ -122,6 +122,25 @@ def main():
         "requirements": [["bred_meadow_loper", "bred_ember_strutter", "bred_woolly_drift"]],
         "sends_telemetry_event": True,
     })
+
+    lost_city_pools = ["husk", "pillager", "vindicator", "zombie", "zombie_moss"]
+    for spawner in lost_city_pools:
+        pool = f"spawners_{spawner}"
+        write(f"data/the_lost_city/worldgen/template_pool/{pool}.json", {
+            "name": f"the_lost_city:{pool}",
+            "fallback": "minecraft:empty",
+            "elements": [
+                {
+                    "weight": 1,
+                    "element": {
+                        "element_type": "minecraft:single_pool_element",
+                        "location": f"the_lost_city:spawner_{spawner}",
+                        "processors": "minecraft:empty",
+                        "projection": "rigid",
+                    }
+                }
+            ],
+        })
 
     shutil.copy(os.path.join(ROOT, "pack.png"), os.path.join(SRC, "pack.png"))
 
