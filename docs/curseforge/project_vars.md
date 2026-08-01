@@ -43,7 +43,7 @@ Ejemplo: `26.2-0.0.0-beta.1`
 
 | Campo | Valor | Notas |
 |-------|-------|-------|
-| `displayName` | `EnchantVenture Fixes (0.0.0-beta.1)` | Nombre visible: `display_name (version)` |
+| `displayName` | `EnchantVenture Fixes (0.0.0-beta.3)` | Nombre visible: `display_name (version)` |
 | `changelog` | HTML (no Markdown) | Ver estructura abajo |
 | `changelogType` | `html` | Obligatorio para que se vea bien |
 | `releaseType` | `beta` | Según el tipo de versión |
@@ -70,7 +70,7 @@ Ejemplo: `26.2-0.0.0-beta.1`
 import json, uuid, urllib.request
 
 boundary = uuid.uuid4().hex
-version = "0.0.0-beta.2"
+version = "0.0.0-beta.3"
 project_id = 1633366
 api_token = "<API_TOKEN>"
 

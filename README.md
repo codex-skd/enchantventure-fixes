@@ -6,9 +6,7 @@ Server-side datapack for Minecraft 26.2 that patches broken recipes, advancement
 
 - **tntfoundry** — 6 advancements with invalid single item entries fixed (`hollow`, `paperwork`, `precision`, `remote_work`, `the_big_one`, `full_catalogue`).
 - **formationsoverworld** — `stone_tower` / `witch_tower` smithing loot tables drop `minecraft:iron_ingot` instead of the broken `minecraft:chain`.
-- **fokus** — added `is_night` predicate (overworld night hours).
-- **nerospace** — added `guide/new_life` breeding advancement.
-- **nerologistics** — restored a working `configurator` recipe.
+- **fokus** — added `is_night` predicate (overworld night hours) and fixed `nxf/kp4o6wh`, `nxf/11z33h0q4`, `nxf/_ignored_bffhan5h` functions (obsolete `play_one_minute` criterion → `play_time`, and malformed `schedule` / `replaceitem` commands).
 
 ## Requirements
 

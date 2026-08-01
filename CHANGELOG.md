@@ -5,6 +5,16 @@ Todos los cambios notables de EnchantVenture Fixes se documentan en este archivo
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.0.0-beta.3] - 2026-08-01
+
+### Añadido
+
+- fokus: corregidas las funciones `nxf/kp4o6wh`, `nxf/11z33h0q4` y `nxf/_ignored_bffhan5h` — criterio `minecraft.play_one_minute` renombrado a `minecraft.play_time`, y comandos mal formados (`schedule function $this.file`, `replaceitem entity @s weapon`) reescritos a sintaxis válida de 26.2.
+
+### Eliminado
+
+- nerologistics: la sobreescritura de la receta del `configurator` se elimina del datapack — el mod ya aporta una receta válida y la versión del datapack usaba el formato de ingrediente antiguo (`"I": {"item": ...}`) que fallaba al parsear.
+
 ## [0.0.0-beta.2] - 2026-07-31
 
 ### Añadido
