@@ -5,6 +5,12 @@ Todos los cambios notables de EnchantVenture Fixes se documentan en este archivo
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.0.0-beta.6] - 2026-08-03
+
+### Añadido
+
+- berezka_api: reintroducidas las 6 loot tables de cofres (`chests/car`, `farm`, `store`, `diningroom`, `treasure`, `berezkahousesmall_0`). El datapack incorporado del mod (`berezka_api_data`) nunca llega a registrarse — `openPrimary()` lanza una `NullPointerException` al construir los metadatos del pack (el array del icono es `null`) — por lo que ningún cofre `berezka_api:chests/*` cargaba loot, confirmado por errores de Lootr (`couldn't be resolved`) en múltiples posiciones del mundo. Los items se recuperaron de las constantes de texto embebidas en `BuiltInResourcePack.class`; las cantidades son una aproximación razonable salvo en `treasure.json`, recuperada literal con sus valores reales.
+
 ## [0.0.0-beta.5] - 2026-08-01
 
 ### Añadido
