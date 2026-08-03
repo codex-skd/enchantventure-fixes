@@ -1,6 +1,6 @@
 # Flujo de trabajo — EnchantVenture_fixes (Datapack)
 
-> **Versión del workflow**: 1.0.0 (codex-docs)
+> **Versión del workflow**: 1.16.0 (codex-docs)
 > Este archivo pertenece al proyecto **EnchantVenture_fixes**. Cambios aquí solo afectan a este proyecto.
 > **Trabaja directamente con este archivo**: es el workflow operativo del datapack, autocontenido. No leas `codex-docs/WORKFLOW_AGENT.md` ni `WORKFLOW_GENERIC.md` de forma rutinaria.
 > On-demand (solo si la tarea lo necesita): `codex-docs/reference/CURSEFORGE.md` (formato HTML al publicar), `codex-docs/reference/REPO_SETUP.md` (setup único de repo).
@@ -80,6 +80,16 @@ El script regenera `datapack/` desde los JARs; revisar el diff (`git diff -- dat
 - Formato HTML de descripciones/changelog: `codex-docs/reference/CURSEFORGE.md`
 
 **3. Release estable** — bump `X.Y.Z` + tag.
+
+**4. Graphify** — tras cada push a remoto. Versión 0.9.12: **`build` no existe**, usar `extract` (1ª vez) o `update . --force` (tras cambios):
+
+```bash
+GRAPHIFY="C:\Users\llagu\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\Scripts\graphify.exe"
+"$GRAPHIFY" update . --force
+git add graphify-out/ && git commit -m "chore: update knowledge graph" && git push
+```
+
+Leer siempre `GRAPH_REPORT.md`, nunca `graph.json`/`graph.html` (pesan >1MB). Sin copias fechadas de `graphify-out/`. Backend LLM: `codex-docs/reference/GRAPHIFY.md`.
 
 ## Buenas prácticas
 
