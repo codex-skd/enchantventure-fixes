@@ -1,6 +1,6 @@
 {
   "pack": {
-    "description": "EnchantVenture data fixes: tntfoundry, formationsoverworld, fokus, nerospace, the_lost_city",
+    "description": "EnchantVenture data fixes: tntfoundry, formationsoverworld, fokus, nerospace, the_lost_city, berezka_api",
     "min_format": [
       107,
       1
