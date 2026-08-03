@@ -9,10 +9,9 @@
       "source_file": "build_fix_pack.py",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "build_fix_pack.py",
       "id": "build_fix_pack",
-      "community_name": "Fix Item Field"
+      "community": 0,
+      "norm_label": "build_fix_pack.py"
     },
     {
       "label": "jar()",
@@ -20,10 +19,9 @@
       "source_file": "build_fix_pack.py",
       "source_location": "L14",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": "jar()",
       "id": "build_fix_pack_jar",
-      "community_name": "Jar Operations"
+      "community": 0,
+      "norm_label": "jar()"
     },
     {
       "label": "clean()",
@@ -31,10 +29,9 @@
       "source_file": "build_fix_pack.py",
       "source_location": "L18",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "clean()",
       "id": "build_fix_pack_clean",
-      "community_name": "Fix Item Field"
+      "community": 0,
+      "norm_label": "clean()"
     },
     {
       "label": "write()",
@@ -42,10 +39,9 @@
       "source_file": "build_fix_pack.py",
       "source_location": "L24",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "write()",
       "id": "build_fix_pack_write",
-      "community_name": "Fix Item Field"
+      "community": 0,
+      "norm_label": "write()"
     },
     {
       "label": "read_from_jar()",
@@ -53,10 +49,9 @@
       "source_file": "build_fix_pack.py",
       "source_location": "L31",
       "_origin": "ast",
-      "community": 1,
-      "norm_label": "read_from_jar()",
       "id": "build_fix_pack_read_from_jar",
-      "community_name": "Jar Operations"
+      "community": 0,
+      "norm_label": "read_from_jar()"
     },
     {
       "label": "fix_item_field()",
@@ -64,10 +59,9 @@
       "source_file": "build_fix_pack.py",
       "source_location": "L36",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "fix_item_field()",
       "id": "build_fix_pack_fix_item_field",
-      "community_name": "Fix Item Field"
+      "community": 0,
+      "norm_label": "fix_item_field()"
     },
     {
       "label": "main()",
@@ -75,10 +69,9 @@
       "source_file": "build_fix_pack.py",
       "source_location": "L49",
       "_origin": "ast",
-      "community": 0,
-      "norm_label": "main()",
       "id": "build_fix_pack_main",
-      "community_name": "Fix Item Field"
+      "community": 0,
+      "norm_label": "main()"
     },
     {
       "label": "curseforge-upload.ps1",
@@ -86,10 +79,9 @@
       "source_file": "scripts/curseforge-upload.ps1",
       "source_location": "L1",
       "_origin": "ast",
-      "community": 4,
-      "norm_label": "curseforge-upload.ps1",
       "id": "scripts_curseforge_upload",
-      "community_name": "CurseForge Upload"
+      "community": 4,
+      "norm_label": "curseforge-upload.ps1"
     },
     {
       "label": "Get-VarFromMd()",
@@ -97,28 +89,578 @@
       "source_file": "scripts/curseforge-upload.ps1",
       "source_location": "L17",
       "_origin": "ast",
-      "community": 4,
-      "norm_label": "get-varfrommd()",
       "id": "scripts_curseforge_upload_get_varfrommd",
-      "community_name": "CurseForge Upload"
+      "community": 4,
+      "norm_label": "get-varfrommd()"
     },
     {
-      "label": "Project Variables",
+      "label": "CHANGELOG.md",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "changelog",
+      "community": 1,
+      "norm_label": "changelog.md"
+    },
+    {
+      "label": "Changelog",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "changelog_changelog",
+      "community": 1,
+      "norm_label": "changelog"
+    },
+    {
+      "label": "[0.0.0-beta.6] - 2026-08-03",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "changelog_0_0_0_beta_6_2026_08_03",
+      "community": 1,
+      "norm_label": "[0.0.0-beta.6] - 2026-08-03"
+    },
+    {
+      "label": "A\u00f1adido",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L10",
+      "_origin": "ast",
+      "id": "changelog_a\u00f1adido",
+      "community": 1,
+      "norm_label": "anadido"
+    },
+    {
+      "label": "[0.0.0-beta.5] - 2026-08-01",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L14",
+      "_origin": "ast",
+      "id": "changelog_0_0_0_beta_5_2026_08_01",
+      "community": 1,
+      "norm_label": "[0.0.0-beta.5] - 2026-08-01"
+    },
+    {
+      "label": "A\u00f1adido",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "changelog_a\u00f1adido_16",
+      "community": 1,
+      "norm_label": "anadido"
+    },
+    {
+      "label": "[0.0.0-beta.4] - 2026-08-01",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L20",
+      "_origin": "ast",
+      "id": "changelog_0_0_0_beta_4_2026_08_01",
+      "community": 7,
+      "norm_label": "[0.0.0-beta.4] - 2026-08-01"
+    },
+    {
+      "label": "A\u00f1adido",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "changelog_a\u00f1adido_22",
+      "community": 7,
+      "norm_label": "anadido"
+    },
+    {
+      "label": "Cambiado",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L26",
+      "_origin": "ast",
+      "id": "changelog_cambiado",
+      "community": 7,
+      "norm_label": "cambiado"
+    },
+    {
+      "label": "[0.0.0-beta.3] - 2026-08-01",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L30",
+      "_origin": "ast",
+      "id": "changelog_0_0_0_beta_3_2026_08_01",
+      "community": 1,
+      "norm_label": "[0.0.0-beta.3] - 2026-08-01"
+    },
+    {
+      "label": "A\u00f1adido",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L32",
+      "_origin": "ast",
+      "id": "changelog_a\u00f1adido_32",
+      "community": 1,
+      "norm_label": "anadido"
+    },
+    {
+      "label": "Eliminado",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L36",
+      "_origin": "ast",
+      "id": "changelog_eliminado",
+      "community": 1,
+      "norm_label": "eliminado"
+    },
+    {
+      "label": "[0.0.0-beta.2] - 2026-07-31",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L40",
+      "_origin": "ast",
+      "id": "changelog_0_0_0_beta_2_2026_07_31",
+      "community": 1,
+      "norm_label": "[0.0.0-beta.2] - 2026-07-31"
+    },
+    {
+      "label": "A\u00f1adido",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "changelog_a\u00f1adido_42",
+      "community": 1,
+      "norm_label": "anadido"
+    },
+    {
+      "label": "[0.0.0-beta.1] - 2026-07-31",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L47",
+      "_origin": "ast",
+      "id": "changelog_0_0_0_beta_1_2026_07_31",
+      "community": 1,
+      "norm_label": "[0.0.0-beta.1] - 2026-07-31"
+    },
+    {
+      "label": "A\u00f1adido",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "changelog_a\u00f1adido_49",
+      "community": 1,
+      "norm_label": "anadido"
+    },
+    {
+      "label": "Cambiado",
+      "file_type": "document",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L60",
+      "_origin": "ast",
+      "id": "changelog_cambiado_60",
+      "community": 1,
+      "norm_label": "cambiado"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme",
+      "community": 6,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "EnchantVenture Fixes",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "readme_enchantventure_fixes",
+      "community": 6,
+      "norm_label": "enchantventure fixes"
+    },
+    {
+      "label": "Fixes included",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "_origin": "ast",
+      "id": "readme_fixes_included",
+      "community": 6,
+      "norm_label": "fixes included"
+    },
+    {
+      "label": "Requirements",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "readme_requirements",
+      "community": 6,
+      "norm_label": "requirements"
+    },
+    {
+      "label": "Installation",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L16",
+      "_origin": "ast",
+      "id": "readme_installation",
+      "community": 6,
+      "norm_label": "installation"
+    },
+    {
+      "label": "Build",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L22",
+      "_origin": "ast",
+      "id": "readme_build",
+      "community": 6,
+      "norm_label": "build"
+    },
+    {
+      "label": "License",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L33",
+      "_origin": "ast",
+      "id": "readme_license",
+      "community": 6,
+      "norm_label": "license"
+    },
+    {
+      "label": "WORKFLOW_ENCHANTVENTURE_FIXES_26-2.md",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_ENCHANTVENTURE_FIXES_26-2.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_workflow_enchantventure_fixes_26_2",
+      "community": 5,
+      "norm_label": "workflow_enchantventure_fixes_26-2.md"
+    },
+    {
+      "label": "Flujo de trabajo \u2014 EnchantVenture_fixes (Datapack)",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_ENCHANTVENTURE_FIXES_26-2.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_workflow_enchantventure_fixes_26_2_flujo_de_trabajo_enchantventure_fixes_datapack",
+      "community": 5,
+      "norm_label": "flujo de trabajo \u2014 enchantventure_fixes (datapack)"
+    },
+    {
+      "label": "Espec\u00edfico del datapack",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_ENCHANTVENTURE_FIXES_26-2.md",
+      "source_location": "L8",
+      "_origin": "ast",
+      "id": "docs_workflow_enchantventure_fixes_26_2_espec\u00edfico_del_datapack",
+      "community": 5,
+      "norm_label": "especifico del datapack"
+    },
+    {
+      "label": "Diferencias con un mod NeoForge",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_ENCHANTVENTURE_FIXES_26-2.md",
+      "source_location": "L19",
+      "_origin": "ast",
+      "id": "docs_workflow_enchantventure_fixes_26_2_diferencias_con_un_mod_neoforge",
+      "community": 5,
+      "norm_label": "diferencias con un mod neoforge"
+    },
+    {
+      "label": "Estructura del proyecto",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_ENCHANTVENTURE_FIXES_26-2.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "docs_workflow_enchantventure_fixes_26_2_estructura_del_proyecto",
+      "community": 5,
+      "norm_label": "estructura del proyecto"
+    },
+    {
+      "label": "Versionado",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_ENCHANTVENTURE_FIXES_26-2.md",
+      "source_location": "L43",
+      "_origin": "ast",
+      "id": "docs_workflow_enchantventure_fixes_26_2_versionado",
+      "community": 5,
+      "norm_label": "versionado"
+    },
+    {
+      "label": "Commits (Conventional Commits)",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_ENCHANTVENTURE_FIXES_26-2.md",
+      "source_location": "L49",
+      "_origin": "ast",
+      "id": "docs_workflow_enchantventure_fixes_26_2_commits_conventional_commits",
+      "community": 5,
+      "norm_label": "commits (conventional commits)"
+    },
+    {
+      "label": "Tags",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_ENCHANTVENTURE_FIXES_26-2.md",
+      "source_location": "L53",
+      "_origin": "ast",
+      "id": "docs_workflow_enchantventure_fixes_26_2_tags",
+      "community": 5,
+      "norm_label": "tags"
+    },
+    {
+      "label": "Flujo por tarea",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_ENCHANTVENTURE_FIXES_26-2.md",
+      "source_location": "L57",
+      "_origin": "ast",
+      "id": "docs_workflow_enchantventure_fixes_26_2_flujo_por_tarea",
+      "community": 5,
+      "norm_label": "flujo por tarea"
+    },
+    {
+      "label": "Buenas pr\u00e1cticas",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_ENCHANTVENTURE_FIXES_26-2.md",
+      "source_location": "L94",
+      "_origin": "ast",
+      "id": "docs_workflow_enchantventure_fixes_26_2_buenas_pr\u00e1cticas",
+      "community": 5,
+      "norm_label": "buenas practicas"
+    },
+    {
+      "label": "Idioma",
+      "file_type": "document",
+      "source_file": "docs/WORKFLOW_ENCHANTVENTURE_FIXES_26-2.md",
+      "source_location": "L102",
+      "_origin": "ast",
+      "id": "docs_workflow_enchantventure_fixes_26_2_idioma",
+      "community": 5,
+      "norm_label": "idioma"
+    },
+    {
+      "label": "project_description.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_description.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_description",
+      "community": 8,
+      "norm_label": "project_description.md"
+    },
+    {
+      "label": "project_vars.md",
       "file_type": "document",
       "source_file": "docs/curseforge/project_vars.md",
-      "community": 3,
-      "norm_label": "project variables",
+      "source_location": "L1",
+      "_origin": "ast",
       "id": "docs_curseforge_project_vars",
-      "community_name": "Project Variables"
+      "community": 3,
+      "norm_label": "project_vars.md"
+    },
+    {
+      "label": "CurseForge \u2014 Variables del proyecto",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "community": 3,
+      "norm_label": "curseforge \u2014 variables del proyecto"
+    },
+    {
+      "label": "Proyecto",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L3",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_proyecto",
+      "community": 3,
+      "norm_label": "proyecto"
+    },
+    {
+      "label": "Tokens",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L11",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_tokens",
+      "community": 3,
+      "norm_label": "tokens"
+    },
+    {
+      "label": "Versi\u00f3n actual",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L23",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_versi\u00f3n_actual",
+      "community": 3,
+      "norm_label": "version actual"
+    },
+    {
+      "label": "Rama",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L31",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_rama",
+      "community": 3,
+      "norm_label": "rama"
+    },
+    {
+      "label": "Tag",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L37",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_tag",
+      "community": 3,
+      "norm_label": "tag"
+    },
+    {
+      "label": "Par\u00e1metros del upload",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L42",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_par\u00e1metros_del_upload",
+      "community": 3,
+      "norm_label": "parametros del upload"
+    },
+    {
+      "label": "Estructura del changelog (HTML)",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L52",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_estructura_del_changelog_html",
+      "community": 3,
+      "norm_label": "estructura del changelog (html)"
+    },
+    {
+      "label": "Subir archivo (ZIP) con Python",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L67",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_subir_archivo_zip_con_python",
+      "community": 3,
+      "norm_label": "subir archivo (zip) con python"
+    },
+    {
+      "label": "Verificar con GET",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L117",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_verificar_con_get",
+      "community": 3,
+      "norm_label": "verificar con get"
+    },
+    {
+      "label": "Descripcion del proyecto",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L124",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_descripcion_del_proyecto",
+      "community": 3,
+      "norm_label": "descripcion del proyecto"
+    },
+    {
+      "label": "Variables parseables (para scripts)",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L128",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_variables_parseables_para_scripts",
+      "community": 3,
+      "norm_label": "variables parseables (para scripts)"
+    },
+    {
+      "label": "Flujo completo",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L139",
+      "_origin": "ast",
+      "id": "docs_curseforge_project_vars_flujo_completo",
+      "community": 3,
+      "norm_label": "flujo completo"
+    },
+    {
+      "label": "0.0.0-beta.1.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/0.0.0-beta.1.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_0_0_0_beta_1",
+      "community": 9,
+      "norm_label": "0.0.0-beta.1.md"
+    },
+    {
+      "label": "0.0.0-beta.2.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/0.0.0-beta.2.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_0_0_0_beta_2",
+      "community": 10,
+      "norm_label": "0.0.0-beta.2.md"
+    },
+    {
+      "label": "0.0.0-beta.3.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/0.0.0-beta.3.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_0_0_0_beta_3",
+      "community": 11,
+      "norm_label": "0.0.0-beta.3.md"
+    },
+    {
+      "label": "0.0.0-beta.4.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/0.0.0-beta.4.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_0_0_0_beta_4",
+      "community": 12,
+      "norm_label": "0.0.0-beta.4.md"
+    },
+    {
+      "label": "0.0.0-beta.5.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/0.0.0-beta.5.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_0_0_0_beta_5",
+      "community": 13,
+      "norm_label": "0.0.0-beta.5.md"
+    },
+    {
+      "label": "0.0.0-beta.6.md",
+      "file_type": "document",
+      "source_file": "docs/curseforge/versions/0.0.0-beta.6.md",
+      "source_location": "L1",
+      "_origin": "ast",
+      "id": "docs_curseforge_versions_0_0_0_beta_6",
+      "community": 14,
+      "norm_label": "0.0.0-beta.6.md"
     },
     {
       "label": "CurseForge Upload Script",
       "file_type": "concept",
       "source_file": "scripts/curseforge-upload.ps1",
-      "community": 3,
+      "community": 15,
       "norm_label": "curseforge upload script",
-      "id": "scripts_curseforge_upload_script",
-      "community_name": "Project Variables"
+      "community_name": "Project Variables",
+      "id": "scripts_curseforge_upload_script"
     },
     {
       "label": "Project Icon",
@@ -126,8 +668,8 @@
       "source_file": "pack.png",
       "community": 2,
       "norm_label": "project icon",
-      "id": "pack_png",
-      "community_name": "Datapack Icons"
+      "community_name": "Datapack Icons",
+      "id": "pack_png"
     },
     {
       "label": "Datapack Project Icon",
@@ -135,8 +677,8 @@
       "source_file": "datapack/pack.png",
       "community": 2,
       "norm_label": "datapack project icon",
-      "id": "datapack_pack_png",
-      "community_name": "Datapack Icons"
+      "community_name": "Datapack Icons",
+      "id": "datapack_pack_png"
     }
   ],
   "links": [
@@ -146,9 +688,9 @@
       "source_file": "build_fix_pack.py",
       "source_location": "L18",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "build_fix_pack",
-      "target": "build_fix_pack_clean"
+      "target": "build_fix_pack_clean",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -156,9 +698,9 @@
       "source_file": "build_fix_pack.py",
       "source_location": "L36",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "build_fix_pack",
-      "target": "build_fix_pack_fix_item_field"
+      "target": "build_fix_pack_fix_item_field",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -166,9 +708,9 @@
       "source_file": "build_fix_pack.py",
       "source_location": "L14",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "build_fix_pack",
-      "target": "build_fix_pack_jar"
+      "target": "build_fix_pack_jar",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -176,9 +718,9 @@
       "source_file": "build_fix_pack.py",
       "source_location": "L49",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "build_fix_pack",
-      "target": "build_fix_pack_main"
+      "target": "build_fix_pack_main",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -186,9 +728,9 @@
       "source_file": "build_fix_pack.py",
       "source_location": "L31",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "build_fix_pack",
-      "target": "build_fix_pack_read_from_jar"
+      "target": "build_fix_pack_read_from_jar",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -196,18 +738,9 @@
       "source_file": "build_fix_pack.py",
       "source_location": "L24",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "build_fix_pack",
-      "target": "build_fix_pack_write"
-    },
-    {
-      "from": "build_fix_pack",
-      "to": "project_vars",
-      "type": "uses",
-      "source_file": "build_fix_pack.py",
-      "confidence_score": 1.0,
-      "source": "build_fix_pack",
-      "target": "docs_curseforge_project_vars"
+      "target": "build_fix_pack_write",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -216,9 +749,9 @@
       "source_file": "build_fix_pack.py",
       "source_location": "L32",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "build_fix_pack_read_from_jar",
-      "target": "build_fix_pack_jar"
+      "target": "build_fix_pack_jar",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -227,9 +760,9 @@
       "source_file": "build_fix_pack.py",
       "source_location": "L50",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "build_fix_pack_main",
-      "target": "build_fix_pack_clean"
+      "target": "build_fix_pack_clean",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -238,9 +771,9 @@
       "source_file": "build_fix_pack.py",
       "source_location": "L52",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "build_fix_pack_main",
-      "target": "build_fix_pack_write"
+      "target": "build_fix_pack_write",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -249,9 +782,9 @@
       "source_file": "build_fix_pack.py",
       "source_location": "L61",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "build_fix_pack_main",
-      "target": "build_fix_pack_read_from_jar"
+      "target": "build_fix_pack_read_from_jar",
+      "confidence_score": 1.0
     },
     {
       "relation": "calls",
@@ -260,9 +793,9 @@
       "source_file": "build_fix_pack.py",
       "source_location": "L62",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "build_fix_pack_main",
-      "target": "build_fix_pack_fix_item_field"
+      "target": "build_fix_pack_fix_item_field",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -270,18 +803,459 @@
       "source_file": "scripts/curseforge-upload.ps1",
       "source_location": "L17",
       "weight": 1.0,
-      "confidence_score": 1.0,
       "source": "scripts_curseforge_upload",
-      "target": "scripts_curseforge_upload_get_varfrommd"
+      "target": "scripts_curseforge_upload_get_varfrommd",
+      "confidence_score": 1.0
     },
     {
-      "from": "curseforge_upload_script",
-      "to": "project_vars",
-      "type": "reads",
-      "source_file": "scripts/curseforge-upload.ps1",
-      "confidence_score": 1.0,
-      "source": "scripts_curseforge_upload_script",
-      "target": "docs_curseforge_project_vars"
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "changelog",
+      "target": "changelog_changelog",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_1_2026_07_31",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_2_2026_07_31",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_3_2026_08_01",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_4_2026_08_01",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_5_2026_08_01",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "changelog_changelog",
+      "target": "changelog_0_0_0_beta_6_2026_08_03",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_6_2026_08_03",
+      "target": "changelog_a\u00f1adido",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_5_2026_08_01",
+      "target": "changelog_a\u00f1adido_16",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_4_2026_08_01",
+      "target": "changelog_a\u00f1adido_22",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_4_2026_08_01",
+      "target": "changelog_cambiado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_3_2026_08_01",
+      "target": "changelog_a\u00f1adido_32",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_3_2026_08_01",
+      "target": "changelog_eliminado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_2_2026_07_31",
+      "target": "changelog_a\u00f1adido_42",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_1_2026_07_31",
+      "target": "changelog_a\u00f1adido_49",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CHANGELOG.md",
+      "source_location": "L60",
+      "weight": 1.0,
+      "source": "changelog_0_0_0_beta_1_2026_07_31",
+      "target": "changelog_cambiado_60",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "readme",
+      "target": "readme_enchantventure_fixes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "readme_enchantventure_fixes",
+      "target": "readme_build",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "readme_enchantventure_fixes",
+      "target": "readme_fixes_included",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "readme_enchantventure_fixes",
+      "target": "readme_installation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "readme_enchantventure_fixes",
+      "target": "readme_license",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "readme_enchantventure_fixes",
+      "target": "readme_requirements",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_ENCHANTVENTURE_FIXES_26-2.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_workflow_enchantventure_fixes_26_2",
+      "target": "docs_workflow_enchantventure_fixes_26_2_flujo_de_trabajo_enchantventure_fixes_datapack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_ENCHANTVENTURE_FIXES_26-2.md",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "docs_workflow_enchantventure_fixes_26_2_flujo_de_trabajo_enchantventure_fixes_datapack",
+      "target": "docs_workflow_enchantventure_fixes_26_2_buenas_pr\u00e1cticas",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_ENCHANTVENTURE_FIXES_26-2.md",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "docs_workflow_enchantventure_fixes_26_2_flujo_de_trabajo_enchantventure_fixes_datapack",
+      "target": "docs_workflow_enchantventure_fixes_26_2_commits_conventional_commits",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_ENCHANTVENTURE_FIXES_26-2.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "docs_workflow_enchantventure_fixes_26_2_flujo_de_trabajo_enchantventure_fixes_datapack",
+      "target": "docs_workflow_enchantventure_fixes_26_2_diferencias_con_un_mod_neoforge",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_ENCHANTVENTURE_FIXES_26-2.md",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "docs_workflow_enchantventure_fixes_26_2_flujo_de_trabajo_enchantventure_fixes_datapack",
+      "target": "docs_workflow_enchantventure_fixes_26_2_espec\u00edfico_del_datapack",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_ENCHANTVENTURE_FIXES_26-2.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "docs_workflow_enchantventure_fixes_26_2_flujo_de_trabajo_enchantventure_fixes_datapack",
+      "target": "docs_workflow_enchantventure_fixes_26_2_estructura_del_proyecto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_ENCHANTVENTURE_FIXES_26-2.md",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "docs_workflow_enchantventure_fixes_26_2_flujo_de_trabajo_enchantventure_fixes_datapack",
+      "target": "docs_workflow_enchantventure_fixes_26_2_flujo_por_tarea",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_ENCHANTVENTURE_FIXES_26-2.md",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "docs_workflow_enchantventure_fixes_26_2_flujo_de_trabajo_enchantventure_fixes_datapack",
+      "target": "docs_workflow_enchantventure_fixes_26_2_idioma",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_ENCHANTVENTURE_FIXES_26-2.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "docs_workflow_enchantventure_fixes_26_2_flujo_de_trabajo_enchantventure_fixes_datapack",
+      "target": "docs_workflow_enchantventure_fixes_26_2_tags",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/WORKFLOW_ENCHANTVENTURE_FIXES_26-2.md",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "docs_workflow_enchantventure_fixes_26_2_flujo_de_trabajo_enchantventure_fixes_datapack",
+      "target": "docs_workflow_enchantventure_fixes_26_2_versionado",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars",
+      "target": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L124",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_descripcion_del_proyecto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L52",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_estructura_del_changelog_html",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L139",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_flujo_completo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_par\u00e1metros_del_upload",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_proyecto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_rama",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_subir_archivo_zip_con_python",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_tag",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_tokens",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L128",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_variables_parseables_para_scripts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L117",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_verificar_con_get",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "docs/curseforge/project_vars.md",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "docs_curseforge_project_vars_curseforge_variables_del_proyecto",
+      "target": "docs_curseforge_project_vars_versi\u00f3n_actual",
+      "confidence_score": 1.0
     },
     {
       "from": "pack_png",
@@ -294,5 +1268,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "c18bee19e21adea811511e065b8d9506b2bff544"
+  "built_at_commit": "c65d8f908ff4eac95d6e7a718b9e8ac1af7d9524"
 }
