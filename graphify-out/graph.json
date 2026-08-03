@@ -1,0 +1,298 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "build_fix_pack.py",
+      "file_type": "code",
+      "source_file": "build_fix_pack.py",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "build_fix_pack.py",
+      "id": "build_fix_pack",
+      "community_name": "Fix Item Field"
+    },
+    {
+      "label": "jar()",
+      "file_type": "code",
+      "source_file": "build_fix_pack.py",
+      "source_location": "L14",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "jar()",
+      "id": "build_fix_pack_jar",
+      "community_name": "Jar Operations"
+    },
+    {
+      "label": "clean()",
+      "file_type": "code",
+      "source_file": "build_fix_pack.py",
+      "source_location": "L18",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "clean()",
+      "id": "build_fix_pack_clean",
+      "community_name": "Fix Item Field"
+    },
+    {
+      "label": "write()",
+      "file_type": "code",
+      "source_file": "build_fix_pack.py",
+      "source_location": "L24",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "write()",
+      "id": "build_fix_pack_write",
+      "community_name": "Fix Item Field"
+    },
+    {
+      "label": "read_from_jar()",
+      "file_type": "code",
+      "source_file": "build_fix_pack.py",
+      "source_location": "L31",
+      "_origin": "ast",
+      "community": 1,
+      "norm_label": "read_from_jar()",
+      "id": "build_fix_pack_read_from_jar",
+      "community_name": "Jar Operations"
+    },
+    {
+      "label": "fix_item_field()",
+      "file_type": "code",
+      "source_file": "build_fix_pack.py",
+      "source_location": "L36",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "fix_item_field()",
+      "id": "build_fix_pack_fix_item_field",
+      "community_name": "Fix Item Field"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "build_fix_pack.py",
+      "source_location": "L49",
+      "_origin": "ast",
+      "community": 0,
+      "norm_label": "main()",
+      "id": "build_fix_pack_main",
+      "community_name": "Fix Item Field"
+    },
+    {
+      "label": "curseforge-upload.ps1",
+      "file_type": "code",
+      "source_file": "scripts/curseforge-upload.ps1",
+      "source_location": "L1",
+      "_origin": "ast",
+      "community": 4,
+      "norm_label": "curseforge-upload.ps1",
+      "id": "scripts_curseforge_upload",
+      "community_name": "CurseForge Upload"
+    },
+    {
+      "label": "Get-VarFromMd()",
+      "file_type": "code",
+      "source_file": "scripts/curseforge-upload.ps1",
+      "source_location": "L17",
+      "_origin": "ast",
+      "community": 4,
+      "norm_label": "get-varfrommd()",
+      "id": "scripts_curseforge_upload_get_varfrommd",
+      "community_name": "CurseForge Upload"
+    },
+    {
+      "label": "Project Variables",
+      "file_type": "document",
+      "source_file": "docs/curseforge/project_vars.md",
+      "community": 3,
+      "norm_label": "project variables",
+      "id": "docs_curseforge_project_vars",
+      "community_name": "Project Variables"
+    },
+    {
+      "label": "CurseForge Upload Script",
+      "file_type": "concept",
+      "source_file": "scripts/curseforge-upload.ps1",
+      "community": 3,
+      "norm_label": "curseforge upload script",
+      "id": "scripts_curseforge_upload_script",
+      "community_name": "Project Variables"
+    },
+    {
+      "label": "Project Icon",
+      "file_type": "image",
+      "source_file": "pack.png",
+      "community": 2,
+      "norm_label": "project icon",
+      "id": "pack_png",
+      "community_name": "Datapack Icons"
+    },
+    {
+      "label": "Datapack Project Icon",
+      "file_type": "image",
+      "source_file": "datapack/pack.png",
+      "community": 2,
+      "norm_label": "datapack project icon",
+      "id": "datapack_pack_png",
+      "community_name": "Datapack Icons"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "build_fix_pack.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "build_fix_pack",
+      "target": "build_fix_pack_clean"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "build_fix_pack.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "build_fix_pack",
+      "target": "build_fix_pack_fix_item_field"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "build_fix_pack.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "build_fix_pack",
+      "target": "build_fix_pack_jar"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "build_fix_pack.py",
+      "source_location": "L49",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "build_fix_pack",
+      "target": "build_fix_pack_main"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "build_fix_pack.py",
+      "source_location": "L31",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "build_fix_pack",
+      "target": "build_fix_pack_read_from_jar"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "build_fix_pack.py",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "build_fix_pack",
+      "target": "build_fix_pack_write"
+    },
+    {
+      "from": "build_fix_pack",
+      "to": "project_vars",
+      "type": "uses",
+      "source_file": "build_fix_pack.py",
+      "confidence_score": 1.0,
+      "source": "build_fix_pack",
+      "target": "docs_curseforge_project_vars"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "build_fix_pack.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "build_fix_pack_read_from_jar",
+      "target": "build_fix_pack_jar"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "build_fix_pack.py",
+      "source_location": "L50",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "build_fix_pack_main",
+      "target": "build_fix_pack_clean"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "build_fix_pack.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "build_fix_pack_main",
+      "target": "build_fix_pack_write"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "build_fix_pack.py",
+      "source_location": "L61",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "build_fix_pack_main",
+      "target": "build_fix_pack_read_from_jar"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "build_fix_pack.py",
+      "source_location": "L62",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "build_fix_pack_main",
+      "target": "build_fix_pack_fix_item_field"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "scripts/curseforge-upload.ps1",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "scripts_curseforge_upload",
+      "target": "scripts_curseforge_upload_get_varfrommd"
+    },
+    {
+      "from": "curseforge_upload_script",
+      "to": "project_vars",
+      "type": "reads",
+      "source_file": "scripts/curseforge-upload.ps1",
+      "confidence_score": 1.0,
+      "source": "scripts_curseforge_upload_script",
+      "target": "docs_curseforge_project_vars"
+    },
+    {
+      "from": "pack_png",
+      "to": "datapack_pack_png",
+      "type": "copy",
+      "source_file": "pack.png",
+      "confidence_score": 1.0,
+      "source": "pack_png",
+      "target": "datapack_pack_png"
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "c18bee19e21adea811511e065b8d9506b2bff544"
+}

@@ -1,0 +1,132 @@
+{
+  "communities": {
+    "0": [
+      "build_fix_pack",
+      "build_fix_pack_clean",
+      "build_fix_pack_fix_item_field",
+      "build_fix_pack_main",
+      "build_fix_pack_write"
+    ],
+    "1": [
+      "build_fix_pack_jar",
+      "build_fix_pack_read_from_jar"
+    ],
+    "2": [
+      "datapack_pack_png",
+      "pack_png"
+    ],
+    "3": [
+      "docs_curseforge_project_vars",
+      "scripts_curseforge_upload_script"
+    ],
+    "4": [
+      "scripts_curseforge_upload",
+      "scripts_curseforge_upload_get_varfrommd"
+    ]
+  },
+  "cohesion": {
+    "0": 0.7,
+    "1": 1.0,
+    "2": 1.0,
+    "3": 1.0,
+    "4": 1.0
+  },
+  "gods": [
+    {
+      "id": "build_fix_pack_main",
+      "label": "main()",
+      "degree": 5
+    },
+    {
+      "id": "build_fix_pack_read_from_jar",
+      "label": "read_from_jar()",
+      "degree": 3
+    },
+    {
+      "id": "build_fix_pack_jar",
+      "label": "jar()",
+      "degree": 2
+    },
+    {
+      "id": "build_fix_pack_clean",
+      "label": "clean()",
+      "degree": 2
+    },
+    {
+      "id": "build_fix_pack_write",
+      "label": "write()",
+      "degree": 2
+    },
+    {
+      "id": "build_fix_pack_fix_item_field",
+      "label": "fix_item_field()",
+      "degree": 2
+    },
+    {
+      "id": "docs_curseforge_project_vars",
+      "label": "Project Variables",
+      "degree": 2
+    },
+    {
+      "id": "scripts_curseforge_upload_script",
+      "label": "CurseForge Upload Script",
+      "degree": 1
+    },
+    {
+      "id": "pack_png",
+      "label": "Project Icon",
+      "degree": 1
+    },
+    {
+      "id": "datapack_pack_png",
+      "label": "Datapack Project Icon",
+      "degree": 1
+    }
+  ],
+  "surprises": [
+    {
+      "source": "CurseForge Upload Script",
+      "target": "Project Variables",
+      "source_files": [
+        "scripts/curseforge-upload.ps1",
+        "docs/curseforge/project_vars.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "",
+      "why": "crosses file types (doc ↔ code); connects across different repos/directories"
+    },
+    {
+      "source": "Project Icon",
+      "target": "Datapack Project Icon",
+      "source_files": [
+        "pack.png",
+        "datapack/pack.png"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "",
+      "why": "connects across different repos/directories"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `Project Variables` connect `Project Variables` to `Fix Item Field`?",
+      "why": "High betweenness centrality (0.106) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `main()` connect `Fix Item Field` to `Jar Operations`?",
+      "why": "High betweenness centrality (0.045) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `read_from_jar()` connect `Jar Operations` to `Fix Item Field`?",
+      "why": "High betweenness centrality (0.008) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `CurseForge Upload Script`, `Project Icon`, `Datapack Project Icon` to the rest of the system?",
+      "why": "3 weakly-connected nodes found - possible documentation gaps or missing edges."
+    }
+  ]
+}
