@@ -51,7 +51,7 @@ def main():
 
     write("pack.mcmeta", {
         "pack": {
-            "description": "EnchantVenture data fixes: tntfoundry, formationsoverworld, fokus, nerospace, the_lost_city",
+            "description": "EnchantVenture data fixes: tntfoundry, formationsoverworld, fokus, nerospace, the_lost_city, berezka_api",
             "min_format": [107, 1],
             "max_format": 107,
         }
@@ -141,6 +141,208 @@ def main():
                 }
             ],
         })
+
+    # berezka_api's own built-in loot tables never register: openPrimary() throws a
+    # NullPointerException while building the built-in pack's metadata (icon array is
+    # null), so the pack "berezka_api_data" never gets added and every berezka_api:*
+    # loot table resolves to "does not exist". Item lists below were recovered from
+    # string constants in BuiltInResourcePack.class (berezka_api-1.2.9.5-beta.3);
+    # exact rolls/weights/counts are not recoverable from bytecode, so quantities are
+    # a reasonable approximation, not the mod's original values.
+    write("data/berezka_api/loot_table/chests/car.json", {
+        "type": "minecraft:chest",
+        "pools": [
+            {
+                "rolls": {"min": 2, "max": 4},
+                "entries": [
+                    {"type": "minecraft:item", "name": "minecraft:cobweb", "weight": 4},
+                    {"type": "minecraft:item", "name": "minecraft:fishing_rod", "weight": 1},
+                    {"type": "minecraft:item", "name": "minecraft:emerald", "weight": 1},
+                    {"type": "minecraft:item", "name": "minecraft:gunpowder", "weight": 1},
+                    {
+                        "type": "minecraft:item",
+                        "name": "minecraft:iron_ingot",
+                        "weight": 1,
+                        "functions": [
+                            {"function": "minecraft:set_count", "count": {"min": 1, "max": 3}}
+                        ],
+                    },
+                    {"type": "minecraft:item", "name": "minecraft:bread", "weight": 1},
+                ],
+            }
+        ],
+        "random_sequence": "berezka_api:chests/car",
+    })
+
+    write("data/berezka_api/loot_table/chests/berezkahousesmall_0.json", {
+        "type": "minecraft:chest",
+        "pools": [
+            {
+                "rolls": {"min": 1, "max": 3},
+                "entries": [
+                    {"type": "minecraft:item", "name": "minecraft:cobweb", "weight": 2},
+                    {"type": "minecraft:item", "name": "minecraft:iron_ingot", "weight": 1},
+                    {"type": "minecraft:item", "name": "minecraft:bread", "weight": 1},
+                    {
+                        "type": "minecraft:group",
+                        "children": [
+                            {"type": "minecraft:item", "name": "minecraft:poisonous_potato"},
+                            {"type": "minecraft:item", "name": "minecraft:potato"},
+                            {"type": "minecraft:item", "name": "minecraft:baked_potato"},
+                            {"type": "minecraft:item", "name": "minecraft:cobweb"},
+                        ],
+                    },
+                ],
+            }
+        ],
+        "random_sequence": "berezka_api:chests/berezkahousesmall_0",
+    })
+
+    write("data/berezka_api/loot_table/chests/diningroom.json", {
+        "type": "minecraft:chest",
+        "pools": [
+            {
+                "rolls": {"min": 2, "max": 4},
+                "entries": [
+                    {"type": "minecraft:item", "name": "minecraft:bread", "weight": 2},
+                    {"type": "minecraft:item", "name": "minecraft:cobweb", "weight": 5},
+                    {"type": "minecraft:item", "name": "minecraft:cake", "weight": 1},
+                    {"type": "minecraft:item", "name": "minecraft:baked_potato", "weight": 1},
+                    {"type": "minecraft:item", "name": "minecraft:poisonous_potato", "weight": 1},
+                    {"type": "minecraft:item", "name": "minecraft:cookie", "weight": 1},
+                    {"type": "minecraft:item", "name": "minecraft:mushroom_stew", "weight": 1},
+                    {"type": "minecraft:item", "name": "minecraft:suspicious_stew", "weight": 1},
+                    {"type": "minecraft:item", "name": "minecraft:pumpkin_pie", "weight": 1},
+                    {"type": "minecraft:item", "name": "minecraft:cooked_beef", "weight": 1},
+                    {"type": "minecraft:empty", "weight": 3},
+                ],
+            }
+        ],
+        "random_sequence": "berezka_api:chests/diningroom",
+    })
+
+    write("data/berezka_api/loot_table/chests/farm.json", {
+        "type": "minecraft:chest",
+        "pools": [
+            {
+                "rolls": {"min": 1, "max": 3},
+                "entries": [
+                    {"type": "minecraft:item", "name": "minecraft:wheat_seeds", "weight": 1},
+                    {"type": "minecraft:item", "name": "minecraft:pumpkin_seeds", "weight": 1},
+                    {"type": "minecraft:item", "name": "minecraft:melon_seeds", "weight": 1},
+                    {"type": "minecraft:item", "name": "minecraft:beetroot_seeds", "weight": 1},
+                    {
+                        "type": "minecraft:item",
+                        "name": "minecraft:cobweb",
+                        "weight": 1,
+                        "functions": [
+                            {"function": "minecraft:set_count", "count": {"min": 1, "max": 2}}
+                        ],
+                    },
+                ],
+            }
+        ],
+        "random_sequence": "berezka_api:chests/farm",
+    })
+
+    write("data/berezka_api/loot_table/chests/store.json", {
+        "type": "minecraft:chest",
+        "pools": [
+            {
+                "rolls": {"min": 3, "max": 6},
+                "entries": [
+                    {"type": "minecraft:item", "name": "minecraft:bread", "weight": 1},
+                    {"type": "minecraft:item", "name": "minecraft:apple", "weight": 1},
+                    {"type": "minecraft:item", "name": "minecraft:cooked_beef", "weight": 1},
+                    {"type": "minecraft:item", "name": "minecraft:rotten_flesh", "weight": 1},
+                    {"type": "minecraft:item", "name": "minecraft:cobweb", "weight": 4},
+                    {"type": "minecraft:item", "name": "minecraft:iron_sword", "weight": 1},
+                    {"type": "minecraft:item", "name": "minecraft:crossbow", "weight": 1},
+                    {
+                        "type": "minecraft:item",
+                        "name": "minecraft:arrow",
+                        "weight": 1,
+                        "functions": [
+                            {"function": "minecraft:set_count", "count": {"min": 4, "max": 12}}
+                        ],
+                    },
+                    {"type": "minecraft:item", "name": "minecraft:bow", "weight": 1},
+                    {"type": "minecraft:item", "name": "minecraft:iron_axe", "weight": 1},
+                    {
+                        "type": "minecraft:item",
+                        "name": "minecraft:iron_ingot",
+                        "weight": 1,
+                        "functions": [
+                            {"function": "minecraft:set_count", "count": {"min": 1, "max": 5}}
+                        ],
+                    },
+                    {
+                        "type": "minecraft:item",
+                        "name": "minecraft:gold_nugget",
+                        "weight": 1,
+                        "functions": [
+                            {"function": "minecraft:set_count", "count": {"min": 1, "max": 4}}
+                        ],
+                    },
+                    {"type": "minecraft:item", "name": "minecraft:emerald", "weight": 1},
+                    {"type": "minecraft:item", "name": "minecraft:book", "weight": 1},
+                    {"type": "minecraft:item", "name": "minecraft:paper", "weight": 1},
+                    {"type": "minecraft:item", "name": "minecraft:map", "weight": 1},
+                    {"type": "minecraft:item", "name": "minecraft:iron_helmet", "weight": 1},
+                    {"type": "minecraft:item", "name": "minecraft:iron_chestplate", "weight": 1},
+                    {"type": "minecraft:item", "name": "minecraft:iron_leggings", "weight": 1},
+                    {"type": "minecraft:item", "name": "minecraft:iron_boots", "weight": 1},
+                ],
+            }
+        ],
+        "random_sequence": "berezka_api:chests/store",
+    })
+
+    # This one was recovered verbatim (rolls/weights/counts are the mod's real
+    # values, not an approximation) from a literal JSON string constant in the
+    # class file, unlike the tables above which are reconstructed from separate
+    # item-name string fragments.
+    write("data/berezka_api/loot_table/chests/treasure.json", {
+        "pools": [
+            {
+                "rolls": 1,
+                "entries": [
+                    {
+                        "type": "minecraft:item",
+                        "name": "minecraft:iron_ingot",
+                        "weight": 100,
+                        "functions": [
+                            {"function": "minecraft:set_count", "count": {"min": 5, "max": 20}}
+                        ],
+                    },
+                    {"type": "minecraft:item", "name": "minecraft:air", "weight": 10},
+                ],
+            },
+            {
+                "rolls": 1,
+                "entries": [
+                    {"type": "minecraft:item", "name": "minecraft:diamond", "weight": 1},
+                    {
+                        "type": "minecraft:item",
+                        "name": "minecraft:gold_ingot",
+                        "functions": [
+                            {
+                                "function": "minecraft:set_count",
+                                "count": {"type": "minecraft:uniform", "min": 1, "max": 5},
+                            }
+                        ],
+                    },
+                ],
+            },
+            {
+                "rolls": 5,
+                "entries": [
+                    {"type": "minecraft:item", "name": "minecraft:cobweb", "weight": 1}
+                ],
+            },
+        ],
+        "random_sequence": "berezka_api:chests/treasure",
+    })
 
     shutil.copy(os.path.join(ROOT, "pack.png"), os.path.join(SRC, "pack.png"))
 
