@@ -51,7 +51,7 @@ def main():
 
     write("pack.mcmeta", {
         "pack": {
-            "description": "EnchantVenture data fixes: tntfoundry, formationsoverworld, fokus, nerospace, the_lost_city, berezka_api",
+            "description": "EnchantVenture data fixes: tntfoundry, formationsoverworld, fokus, nerospace, the_lost_city, berezka_api, orphaned Lootr containers",
             "min_format": [107, 1],
             "max_format": 107,
         }
@@ -315,7 +315,7 @@ def main():
                             {"function": "minecraft:set_count", "count": {"min": 5, "max": 20}}
                         ],
                     },
-                    {"type": "minecraft:item", "name": "minecraft:air", "weight": 10},
+                    {"type": "minecraft:empty", "weight": 10},
                 ],
             },
             {
@@ -342,6 +342,25 @@ def main():
             },
         ],
         "random_sequence": "berezka_api:chests/treasure",
+    })
+
+    # Orphaned Lootr container at BlockPos{x=-4854, y=70, z=669} in the overworld
+    # references loot table 'minecraft:chests/houseloot', which does not exist in
+    # any installed mod or in vanilla (leftover NBT tag from a mod/datapack that is
+    # no longer present). Stub it out under the vanilla namespace so Lootr can
+    # resolve it instead of erroring every time the container is filled.
+    write("data/minecraft/loot_table/chests/houseloot.json", {
+        "type": "minecraft:chest",
+        "pools": [
+            {
+                "rolls": {"min": 1, "max": 3},
+                "entries": [
+                    {"type": "minecraft:item", "name": "minecraft:bread", "weight": 1},
+                    {"type": "minecraft:item", "name": "minecraft:iron_ingot", "weight": 1},
+                    {"type": "minecraft:empty", "weight": 2},
+                ],
+            }
+        ],
     })
 
     shutil.copy(os.path.join(ROOT, "pack.png"), os.path.join(SRC, "pack.png"))
