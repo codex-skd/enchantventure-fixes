@@ -5,6 +5,17 @@ Todos los cambios notables de EnchantVenture Fixes se documentan en este archivo
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.0.0-beta.8] - 2026-08-11
+
+### Corregido
+
+- berezka_api: `chests/treasure` no cargaba — una entrada `minecraft:item` con `minecraft:air` es inválida en 26.2 (`Item must not be minecraft:air`), rechazada al parsear el datapack. Sustituida por `minecraft:empty`.
+- `minecraft:chests/houseloot` (namespace vanilla, sin el mod `MineCraftJ` involucrado — ver nota abajo): añadida tabla de loot para un cofre huérfano en `BlockPos{x=-4854, y=70, z=669}` del overworld, cuya tabla original ya no existe en ningún mod instalado. Confirmado por error de Lootr en el log del servidor.
+
+### Nota sobre beta.7
+
+La entrada de beta.7 (`houseloot1` / mod `MineCraftJ`) era incorrecta: ni ese nombre de tabla ni ese mod existen en el modpack ni en los logs revisados. El fix real para el error de Lootr (`minecraft:chests/houseloot`, sin el mod inventado) se implementa en esta versión.
+
 ## [0.0.0-beta.7] - 2026-08-06
 
 ### Corregido
