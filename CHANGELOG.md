@@ -5,6 +5,13 @@ Todos los cambios notables de EnchantVenture Fixes se documentan en este archivo
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.0.0-beta.9] - 2026-08-18
+
+### Corregido
+
+- ancient_artifacts: `utilities/knockback/loop` usaba el formato antiguo (pre-1.21.5) del componente `enchantments` (`components: {enchantments: {"ancient_artifacts:knockback": 1}}`). En 26.2 el valor del componente `minecraft:enchantments` es `{"levels": {...}}`, por lo que el `summon` del armor_stand lanzaba un error cada vez que las combo boots disparaban un dash (alcanzado desde `tick` → `artifacts/tick` → `combo_boots/tick` → `dash` → `knockback/deal` → `loop`). Corregido a `{"minecraft:enchantments": {"levels": {"ancient_artifacts:knockback": 1}}}`.
+- ancient_artifacts: `recycling_crystal/tag_arrow` usaba el mismo formato antiguo como patrón de coincidencia NBT, por lo que la detección de infinity/multishot nunca coincidía (las flechas siempre se etiquetaban `no_infinity`/`no_multishot`). Actualizado al formato `{"levels": {...}}` de 26.2.
+
 ## [0.0.0-beta.8] - 2026-08-11
 
 ### Corregido
