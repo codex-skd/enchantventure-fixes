@@ -51,7 +51,7 @@ def main():
 
     write("pack.mcmeta", {
         "pack": {
-            "description": "EnchantVenture data fixes: tntfoundry, formationsoverworld, fokus, nerospace, the_lost_city, berezka_api, orphaned Lootr containers",
+            "description": "EnchantVenture data fixes: tntfoundry, formationsoverworld, fokus, nerospace, the_lost_city, berezka_api, orphaned Lootr containers, ancient_artifacts",
             "min_format": [107, 1],
             "max_format": 107,
         }
@@ -362,6 +362,33 @@ def main():
             }
         ],
     })
+
+    # Ancient Artifacts 2 (V2.5.5l) uses the pre-1.21.5 enchantments component NBT
+    # shape. In 1.21.6 the minecraft:enchantments item component value is
+    # {"levels": {...}}, so:
+    # - utilities/knockback/loop: the armor_stand summon errors out every time
+    #   combo boots trigger a dash (reached from tick -> artifacts/tick ->
+    #   combo_boots/tick -> dash -> knockback/deal -> loop).
+    # - recycling_crystal/tag_arrow: the NBT match never matched, so the
+    #   infinity/multishot detection was silently broken (arrows always tagged
+    #   no_infinity/no_multishot).
+    aa2_functions = {
+        "utilities/knockback/loop": [
+            "scoreboard players remove .knockback_loop temp 1",
+            'summon armor_stand ~ ~ ~ {equipment: {feet: {id: "minecraft:poisonous_potato", components: {"minecraft:enchantments": {"levels": {"ancient_artifacts:knockback": 1}}}}, Invisible: 1b}',
+            "execute if score .knockback_loop temp matches 1.. run function ancient_artifacts:utilities/knockback/loop",
+        ],
+        "artifacts/deep_dark/recycling_crystal/tag_arrow": [
+            'execute if entity @s[nbt=!{weapon: {components: {"minecraft:enchantments": {"levels": {"minecraft:infinity": 1}}}}}] run tag @s add no_infinity',
+            'execute if entity @s[nbt=!{weapon: {components: {"minecraft:enchantments": {"levels": {"minecraft:multishot": 1}}}}}] run tag @s add no_multishot',
+            "tag @s add enchant_checked",
+        ],
+    }
+    for name, lines in aa2_functions.items():
+        full = os.path.join(SRC, f"data/ancient_artifacts/function/{name}.mcfunction")
+        os.makedirs(os.path.dirname(full), exist_ok=True)
+        with open(full, "w", encoding="utf-8", newline="\n") as f:
+            f.write("\n".join(lines) + "\n")
 
     shutil.copy(os.path.join(ROOT, "pack.png"), os.path.join(SRC, "pack.png"))
 
