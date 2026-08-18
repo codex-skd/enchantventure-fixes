@@ -363,8 +363,8 @@ def main():
         ],
     })
 
-    # Ancient Artifacts 2 (V2.5.5l) uses the pre-1.21.5 enchantments component NBT
-    # shape. In 1.21.6 the minecraft:enchantments item component value is
+    # Ancient Artifacts 2 (V2.5.5l) uses the old-format enchantments component NBT
+    # shape. In 26.2 the minecraft:enchantments item component value is
     # {"levels": {...}}, so:
     # - utilities/knockback/loop: the armor_stand summon errors out every time
     #   combo boots trigger a dash (reached from tick -> artifacts/tick ->
