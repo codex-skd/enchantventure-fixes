@@ -4,11 +4,11 @@ Server-side datapack for Minecraft 26.2 that patches broken recipes, advancement
 
 ## Fixes included
 
-- **tntfoundry** — 6 advancements with invalid single item entries fixed (`hollow`, `paperwork`, `precision`, `remote_work`, `the_big_one`, `full_catalogue`).
 - **formationsoverworld** — `stone_tower` / `witch_tower` smithing loot tables drop `minecraft:iron_ingot` instead of the broken `minecraft:chain`.
 - **fokus** — added `is_night` predicate (overworld night hours) and fixed `nxf/kp4o6wh`, `nxf/11z33h0q4`, `nxf/_ignored_bffhan5h` functions (obsolete `play_one_minute` criterion → `play_time`, and malformed `schedule` / `replaceitem` commands).
 - **berezka_api** — fixed `chests/treasure` loot table failing to parse (`minecraft:item` entry with `minecraft:air` is invalid; replaced with `minecraft:empty`).
 - **Orphaned Lootr container** — added a `minecraft:chests/houseloot` stub loot table for a leftover chest (BlockPos -4854, 70, 669 in the overworld) whose original loot table no longer exists in any installed mod.
+- **marsward** — full `es_ES` translation of the in-game Field Manual (`data/marsward/field_manual/field_manual.json`, 18 chapters). The manual's text is hardcoded into the mod's own datapack JSON rather than a `lang/` file, so a resource pack cannot translate it — this override replaces the file entirely.
 
 ## Requirements
 
