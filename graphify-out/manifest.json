@@ -5,47 +5,47 @@
     "semantic_hash": ""
   },
   "datapack/data/fokus/predicate/is_night.json": {
-    "mtime": 1787609090.8597007,
+    "mtime": 1787609591.5699587,
     "ast_hash": "24acd3ac75a2eb2a80db3818f71ee521",
     "semantic_hash": "24acd3ac75a2eb2a80db3818f71ee521"
   },
   "datapack/data/formationsoverworld/loot_table/stone_tower/smithing.json": {
-    "mtime": 1787609090.8536873,
+    "mtime": 1787609591.5614853,
     "ast_hash": "f742a5a44cdf6090fdb01475f394ccab",
     "semantic_hash": "f742a5a44cdf6090fdb01475f394ccab"
   },
   "datapack/data/formationsoverworld/loot_table/witch_tower/smithing.json": {
-    "mtime": 1787609090.8582103,
+    "mtime": 1787609591.5699587,
     "ast_hash": "eacd9083add12ac97daae708c7ad60d0",
     "semantic_hash": "eacd9083add12ac97daae708c7ad60d0"
   },
   "datapack/data/nerospace/advancement/guide/new_life.json": {
-    "mtime": 1787609090.861957,
+    "mtime": 1787609591.573447,
     "ast_hash": "0fbe6b31a9e3b2a5d68ac0dbae621e27",
     "semantic_hash": "0fbe6b31a9e3b2a5d68ac0dbae621e27"
   },
   "datapack/data/the_lost_city/worldgen/template_pool/spawners_husk.json": {
-    "mtime": 1787609090.8634596,
+    "mtime": 1787609591.5739434,
     "ast_hash": "35c546a35fc6eaf0da0bbcc5bf72164b",
     "semantic_hash": "35c546a35fc6eaf0da0bbcc5bf72164b"
   },
   "datapack/data/the_lost_city/worldgen/template_pool/spawners_pillager.json": {
-    "mtime": 1787609090.8639557,
+    "mtime": 1787609591.57444,
     "ast_hash": "5cd072e1965e70bf157f9a2fbbfc2017",
     "semantic_hash": "5cd072e1965e70bf157f9a2fbbfc2017"
   },
   "datapack/data/the_lost_city/worldgen/template_pool/spawners_vindicator.json": {
-    "mtime": 1787609090.8644526,
+    "mtime": 1787609591.5749364,
     "ast_hash": "af259b4a71d0f9448654b6ad17f42765",
     "semantic_hash": "af259b4a71d0f9448654b6ad17f42765"
   },
   "datapack/data/the_lost_city/worldgen/template_pool/spawners_zombie.json": {
-    "mtime": 1787609090.8649492,
+    "mtime": 1787609591.5754335,
     "ast_hash": "19538dfbaae013b183037538f99a413d",
     "semantic_hash": "19538dfbaae013b183037538f99a413d"
   },
   "datapack/data/the_lost_city/worldgen/template_pool/spawners_zombie_moss.json": {
-    "mtime": 1787609090.8649492,
+    "mtime": 1787609591.5759299,
     "ast_hash": "a92ab8434dc86f5845da4d7c0ee42b6d",
     "semantic_hash": "a92ab8434dc86f5845da4d7c0ee42b6d"
   },
@@ -55,32 +55,32 @@
     "semantic_hash": "6b395be591df7422c7d5875da0481e3a"
   },
   "datapack/data/berezka_api/loot_table/chests/berezkahousesmall_0.json": {
-    "mtime": 1787609090.8669589,
+    "mtime": 1787609591.5769231,
     "ast_hash": "9c21db2216212bbc81b4f904691944d9",
     "semantic_hash": ""
   },
   "datapack/data/berezka_api/loot_table/chests/car.json": {
-    "mtime": 1787609090.8659525,
+    "mtime": 1787609591.5769231,
     "ast_hash": "640a3ba94f01abc5d3e7a8c98db9cfd7",
     "semantic_hash": ""
   },
   "datapack/data/berezka_api/loot_table/chests/diningroom.json": {
-    "mtime": 1787609090.8674555,
+    "mtime": 1787609591.5784614,
     "ast_hash": "b4376f955b1c908496b43c7d7ca48136",
     "semantic_hash": ""
   },
   "datapack/data/berezka_api/loot_table/chests/farm.json": {
-    "mtime": 1787609090.8679514,
+    "mtime": 1787609591.5824463,
     "ast_hash": "eb60f763eb152afca5e1b7dfa688d058",
     "semantic_hash": ""
   },
   "datapack/data/berezka_api/loot_table/chests/store.json": {
-    "mtime": 1787609090.8684485,
+    "mtime": 1787609591.5834394,
     "ast_hash": "277e2bdf0d3d0345fb2bd4d6d9ff31b8",
     "semantic_hash": ""
   },
   "datapack/data/berezka_api/loot_table/chests/treasure.json": {
-    "mtime": 1787609090.868946,
+    "mtime": 1787609591.5839365,
     "ast_hash": "47788143496bc97922fc61eccdbe34dd",
     "semantic_hash": ""
   },
@@ -90,8 +90,8 @@
     "semantic_hash": ""
   },
   "CHANGELOG.md": {
-    "mtime": 1787044198.3338013,
-    "ast_hash": "44d9d640009407865606889365a8791d",
+    "mtime": 1787609620.2677827,
+    "ast_hash": "46be0efe149347b10cec53a93023f60f",
     "semantic_hash": ""
   },
   "README.md": {
@@ -145,12 +145,12 @@
     "semantic_hash": ""
   },
   "version.txt": {
-    "mtime": 1787043442.8846314,
-    "ast_hash": "70f71df3407228e630301c1e208d9aa3",
+    "mtime": 1787609589.991417,
+    "ast_hash": "f583aef2ed140ccd0d2b935c8c6c6771",
     "semantic_hash": ""
   },
   "datapack/pack.png": {
-    "mtime": 1787609090.8888955,
+    "mtime": 1787609591.6064806,
     "ast_hash": "2c383a967167a5add69b08626e091de2",
     "semantic_hash": ""
   },
@@ -165,7 +165,7 @@
     "semantic_hash": ""
   },
   "datapack/data/minecraft/loot_table/chests/houseloot.json": {
-    "mtime": 1787609090.8699386,
+    "mtime": 1787609591.5849338,
     "ast_hash": "9c49d3c47c501dda41766f42b0541d5a",
     "semantic_hash": ""
   },
@@ -175,13 +175,18 @@
     "semantic_hash": ""
   },
   "datapack/data/marsward/field_manual/field_manual.json": {
-    "mtime": 1787609090.8784254,
+    "mtime": 1787609591.5899272,
     "ast_hash": "055865968d1874d604ca26a1a643db5c",
     "semantic_hash": ""
   },
   "docs/curseforge/versions/0.0.0-beta.9.md": {
     "mtime": 1787044197.566223,
     "ast_hash": "768b9d6fd65e1a0dd148685c6c98ca30",
+    "semantic_hash": ""
+  },
+  "docs/curseforge/versions/0.0.0-beta.10.md": {
+    "mtime": 1787609615.089469,
+    "ast_hash": "678898a646bdcfeaf96e9721e191c581",
     "semantic_hash": ""
   }
 }
