@@ -5,6 +5,16 @@ Todos los cambios notables de EnchantVenture Fixes se documentan en este archivo
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.0.0-beta.10] - 2026-08-25
+
+### Añadido
+
+- marsward: traducción `es_ES` completa del Manual de campo del juego (`data/marsward/field_manual/field_manual.json`, 18 capítulos). El texto está codificado en el propio JSON de datapack del mod (no en `lang/`), así que un resource pack no puede traducirlo — este datapack sobrescribe el archivo entero con la versión en español.
+
+### Eliminado
+
+- tntfoundry: quitados los fixes de avances (`hollow`, `paperwork`, `precision`, `remote_work`, `the_big_one`, `full_catalogue`). El mod ya no está en la instancia de EnchantVenture (salió del modpack, igual que ancient_artifacts), por lo que estos fixes eran código muerto que además rompía el build (lee el JAR del mod para generarlos).
+
 ## [0.0.0-beta.9] - 2026-08-18
 
 ### Corregido
