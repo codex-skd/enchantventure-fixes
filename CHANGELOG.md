@@ -5,6 +5,30 @@ Todos los cambios notables de EnchantVenture Fixes se documentan en este archivo
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.0.0-beta.11] - 2026-08-25
+
+### Corregido
+
+- frontier_armaments: 5 recetas shaped con ingrediente inválido `minecraft:chain` — reemplazado por `minecraft:iron_ingot` (juggernaut helmet/chestplate/leggings/boots, peasant chestplate).
+- bosscraft_2: 7 avances (`burn_advandement`, `dead_advancement`, `dust_advancement`, `exterminator_advancement`, `ice_advancement`, `mountain_advancement`, `ninja_advancement`) usando registro inexistente `entity_sub_predicate_type` — reemplazado por predicate directo de entity type.
+- aerialhell: loot table shroomboom usaba `entity_properties` con tag `#minecraft:skeletons` — reemplazado por `entity_type` listando 4 variantes de esqueleto (skeleton, wither_skeleton, stray, bogged).
+
+### Añadido
+
+- equivalent_legacy: valores EMC para `occultism:silver_ingot` (512), `occultism:silver_nugget` (57), `ecologics:azalea_flower` (32), `reliquary:witch_hat` (30) — elimina warnings "EMC Exploit" en inicio.
+- neroagriculture: 32 tags de materiales bajo namespace `c:` (dusts, gems, ingots, ores, raw_materials) con fallbacks donde existen los mods — resuelve warnings "material tag is empty".
+- bettervillageranimations: libro guía in-game (`data/bettervillageranimations/book/guide.json`) con info básica de animaciones e interacciones de aldeanos.
+- nerologistics / nerotech: recetas `configurator` incluidas (upstream no tenía ingrediente `tools`; solo se agregan stubs).
+
+### Eliminado
+
+- ancient_artifacts: fixes de funciones (`knockback/loop`, `recycling_crystal/tag_arrow`) — mod ya no instalado en la instancia.
+
+### Mantenido
+
+- marsward: traducción `es_ES` completa del Field Manual (18 capítulos).
+- formationsoverworld, fokus, nerospace, the_lost_city, berezka_api: loot tables, predicates, template pools, Lootr stub.
+
 ## [0.0.0-beta.10] - 2026-08-25
 
 ### Añadido
