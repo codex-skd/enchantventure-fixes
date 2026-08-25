@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "bosscraft_2:mountain_scroll"
+    },
+    "title": {
+      "translate": "advancements.mountain_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.mountain_advancement.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mountain_advancement_0": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "bosscraft_2:mega_block"
+        }
+      }
+    }
+  },
+  "parent": "bosscraft_2:bossy_advancement"
+}

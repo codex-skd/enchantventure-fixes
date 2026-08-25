@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "bosscraft_2:desert_scroll"
+    },
+    "title": {
+      "translate": "advancements.dust_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.dust_advancement.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dust_advancement_0": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "bosscraft_2:king_scorpion"
+        }
+      }
+    }
+  },
+  "parent": "bosscraft_2:bossy_advancement"
+}

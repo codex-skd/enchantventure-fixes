@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "R": "minecraft:leather"
+  },
+  "pattern": [
+    "I I",
+    "RRR",
+    "RRR"
+  ],
+  "result": {
+    "id": "frontier_armaments:peasant_chestplate"
+  },
+  "category": "equipment",
+  "show_notification": true
+}
