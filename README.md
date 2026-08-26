@@ -8,7 +8,7 @@ Server-side datapack for Minecraft 26.2 that patches broken recipes, advancement
 - **fokus** — added `is_night` predicate (overworld night hours) and fixed `nxf/kp4o6wh`, `nxf/11z33h0q4`, `nxf/_ignored_bffhan5h` functions (obsolete `play_one_minute` criterion → `play_time`, and malformed `schedule` / `replaceitem` commands).
 - **berezka_api** — fixed `chests/treasure` loot table failing to parse (`minecraft:item` entry with `minecraft:air` is invalid; replaced with `minecraft:empty`).
 - **Orphaned Lootr container** — added a `minecraft:chests/houseloot` stub loot table for a leftover chest (BlockPos -4854, 70, 669 in the overworld) whose original loot table no longer exists in any installed mod.
-- **marsward** — full `es_ES` translation of the in-game Field Manual (`data/marsward/field_manual/field_manual.json`, 18 chapters). The manual's text is hardcoded into the mod's own datapack JSON rather than a `lang/` file, so a resource pack cannot translate it — this override replaces the file entirely.
+- **marsward** — `data/marsward/field_manual/field_manual.json` is present but currently has **no effect**: the mod's Field Manual GUI reads its text from hardcoded Java `String` literals compiled into `marsward-1.0.6.jar` (confirmed via bytecode inspection), not from this datapack file. Translating the in-game manual would require patching the mod itself (e.g. a Mixin), which is out of scope for a datapack. Left in place for a possible future mod version that reads this file for real.
 
 ## Requirements
 

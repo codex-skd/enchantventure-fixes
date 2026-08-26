@@ -5,6 +5,12 @@ Todos los cambios notables de EnchantVenture Fixes se documentan en este archivo
 El formato sigue [Keep a Changelog](https://keepachangelog.com/en/1.1.0/)
 y el proyecto adhiere a [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Corregido
+
+- marsward: se retira la afirmación de que este datapack traduce el Field Manual al `es_ES`. Investigación en juego (2026-08-26) confirmó que `data/marsward/field_manual/field_manual.json` no tiene ningún efecto — el mod (`marsward-1.0.6.jar`) construye el texto de la GUI del manual a partir de `String` literales hardcodeados en Java (`FieldManualContent.class`, `MarswardDisplayNames.class`), no desde este archivo. Los apuntes de las entradas `beta.10`/`beta.11` de abajo describían esto como funcional; no lo era. El JSON se mantiene en el datapack por si una futura versión del mod lo lee de verdad, pero hoy es inerte.
+
 ## [0.0.0-beta.11] - 2026-08-25
 
 ### Corregido
