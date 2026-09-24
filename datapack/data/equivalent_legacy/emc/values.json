@@ -1,0 +1,10 @@
+{
+  "equivalent_legacy:conversions": {
+    "values": {
+      "occultism:silver_ingot": 512,
+      "occultism:silver_nugget": 57,
+      "ecologics:azalea_flower": 32,
+      "reliquary:witch_hat": 30
+    }
+  }
+}

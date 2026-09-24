@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "bosscraft_2:ice_scroll"
+    },
+    "title": {
+      "translate": "advancements.ice_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.ice_advancement.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ice_advancement_0": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "bosscraft_2:ice_pharaoh"
+        }
+      }
+    }
+  },
+  "parent": "bosscraft_2:bossy_advancement"
+}

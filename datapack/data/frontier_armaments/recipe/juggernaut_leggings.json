@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "III",
+    "G G",
+    "C C"
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "G": "minecraft:gold_ingot",
+    "C": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "frontier_armaments:juggernaut_leggings"
+  }
+}

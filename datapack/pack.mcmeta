@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "EnchantVenture data fixes: formationsoverworld, fokus, nerospace, the_lost_city, berezka_api, orphaned Lootr containers, marsward es_ES, frontier_armaments recipes, nerologistics/nerotech recipes, bosscraft_2/aerialhell advancements, equivalent_legacy EMC, neroagriculture tags, bettervillageranimations book",
+    "min_format": [
+      107,
+      1
+    ],
+    "max_format": 107
+  }
+}
