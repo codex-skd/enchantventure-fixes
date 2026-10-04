@@ -1,0 +1,15 @@
+{
+  "name": "the_lost_city:spawners_zombie_moss",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "the_lost_city:spawner_zombie_moss",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

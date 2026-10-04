@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "bosscraft_2:nether_scroll"
+    },
+    "title": {
+      "translate": "advancements.burn_advandement.title"
+    },
+    "description": {
+      "translate": "advancements.burn_advandement.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "burn_advandement_0": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "bosscraft_2:fire_lord"
+        }
+      }
+    }
+  },
+  "parent": "bosscraft_2:bossy_advancement"
+}

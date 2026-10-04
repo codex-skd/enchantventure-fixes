@@ -1,0 +1,22 @@
+{
+  "book": {
+    "title": "Guía del Aldeano Animado",
+    "author": "EnchantVenture",
+    "description": "Todo sobre las animaciones y comportamientos de los aldeanos",
+    "chapters": [
+      {
+        "title": "Introducción",
+        "entries": [
+          {
+            "title": "Nuevas animaciones",
+            "text": "Los aldeanos ahora tienen animaciones de trabajo, descanso e interacción social."
+          },
+          {
+            "title": "Interacciones",
+            "text": "Los aldeanos reaccionan a los jugadores: saludan, huyen o comercian según su profesión."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "bosscraft_2:cave_scroll"
+    },
+    "title": {
+      "translate": "advancements.exterminator_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.exterminator_advancement.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "exterminator_advancement_0": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "bosscraft_2:spider_queen"
+        }
+      }
+    }
+  },
+  "parent": "bosscraft_2:bossy_advancement"
+}
